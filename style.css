@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: antiquewhite;
+}
+
+#password-container{
+    width: 100%;
+    max-width: 500px;
+    background-color: #fff;border-radius: 10px;
+    box-shadow: 0 0 10px 0 black;
+    overflow: hidden;
+}
+
+#password-container .header h2{
+    text-align: center;
+    background-color: blueviolet;
+    color: #fff;
+    padding: 20px;
+}
+
+.display{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.display .pass-input{
+    margin-left: 10px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid black;
+    font-size: 1.2rem;
+    width: 80%;
+    font-weight: 900;
+    padding: 7px;
+}
+
+.display .copy{
+    background-color: blueviolet;
+    border: none;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.setting{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 15px 30px;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.generateBtn{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: blueviolet;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+}
